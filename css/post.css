@@ -1,0 +1,41 @@
+ .divisao__toda_conteudo {
+     margin: 2em 0 0 0;
+ }
+ 
+ 
+ .divisao__conteudo_central, .divisao__conteudo_paragrafo {
+     text-align: center;
+ }
+
+ #divisao__conteudo {
+    width: 350px;
+    height: 1px;
+ }
+
+ .divisao__espaco {
+     margin: 0.5em 0;
+ }
+
+ .post__section {
+    width: 80%;
+    text-align: justify;
+    font-size: 19px;
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+ }
+
+ .post__subtitulo {
+    margin: 1.5em 0;
+    text-align: center;
+ }
+
+ .post__paragrafo {
+    margin: 0.5em 0;
+ }
+
+ .post__link {
+     color: #0000FF;
+ }

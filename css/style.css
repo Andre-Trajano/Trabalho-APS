@@ -1,0 +1,166 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #CCCCCC;
+    --botao-azul: #0084FF;
+    --cor-de-fundo-claro: #EBFCE1;
+    --cor-de-fundo-escuro: #1B7C36;
+}
+
+html {
+    background: var(--cor-de-fundo-claro);
+}
+
+.destaques {
+    text-align: center;    
+}
+
+.destaques__titulo{
+    color: #4F4C4C;
+    font-size: 24px;
+    font: bold;
+    padding-top: 2EM;
+}
+
+.destaques__imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.2em 0;
+    max-width: 80%;
+}
+
+.destaques__texto{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.destaques__botao {
+    border: 2px solid var(--botao-azul);
+    border-radius: 8px;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    margin: 1em 0 1em 0;
+    font-weight: 400;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destaques__botao_texto {
+    text-decoration: none;
+    text-align: center;
+}
+
+.divisao__conteudo {
+    display:block; 
+    margin-left: auto;
+    margin-right: auto;
+    width:95%; 
+    height:2px; 
+    background-color:#000000;
+}
+
+.divisao__sobre {
+    display: flex;
+    text-align: justify;
+    margin: 2em 5em 2em 5em;
+    justify-content: center
+}
+
+.destaques__sobre_imagem {
+    max-width: 60%;
+}
+
+.divconted {
+    justify-content: center;
+}
+
+.divisao__sobre_div {
+    width: 40%;
+}
+
+.destaques__sobre_paragrafo {
+    margin: 2em 0 0 0;
+}
+
+.divisao__contato {
+    text-align: center;
+}
+
+.destaques__botao_texto {
+    margin-bottom: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .destaques__imagem {
+        max-width: 100%;
+    }
+
+    .destaques__sobre_imagem {
+        display: none;
+    }
+
+    .destaques__titulo {
+        text-align: center;
+    }
+    
+    .divisao__sobre_div {
+        width: 100%;
+    }
+
+    .divisao__sobre {
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin: 2em auto;
+    }
+
+    .destaques__sobre_paragrafo {
+        margin: 2em 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .destaques__sobre_imagem {
+        display: none;
+    }
+
+    .destaques__titulo {
+        text-align: center;
+    }
+    
+    .divisao__sobre_div {
+        width: 100%;
+    }
+
+    .divisao__sobre {
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin: 2em auto;
+    }
+
+    .destaques__sobre_paragrafo {
+        margin: 2em 0 0 0;
+    }
+}

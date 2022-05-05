@@ -1,0 +1,57 @@
+html {
+    background: #ffffff;
+}
+
+.formulario {
+    display: grid;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.formulario__titulo {
+    text-align: center;
+    color: #4F4C4C;
+    font-size: 24px;
+    padding: 0 0 1.2em 0;
+}
+
+.formulario__label {
+    display: block;
+}
+
+.formulario__campo {
+    border-radius: 5px;
+    border: 1px solid #0084FF;
+    width: 350px;
+    height: 30px;
+}
+
+.formulario__campo_mensagem {
+    height: 100px;
+}
+
+.formulario__label {
+    padding: 0.6em 0;
+}
+
+.formulario__radio {
+    display: block;
+    padding: 0.6em 0;
+}
+
+.formulario__radio_item {
+    padding: 0.2em 0 0 2em;
+}
+
+.formulario__botao {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    background: #0084FF;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    font: bold;
+    height: 40px;
+}
