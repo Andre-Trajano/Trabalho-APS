@@ -129,6 +129,14 @@ html {
     .destaques__sobre_paragrafo {
         margin: 2em 0 0 0;
     }
+    
+    .destaques__titulo{
+        padding-top: 0;
+    }
+
+    .destaques__titulo_contato {
+        padding-top: 2em;
+    }
 }
 
 
@@ -162,5 +170,14 @@ html {
 
     .destaques__sobre_paragrafo {
         margin: 2em 0 0 0;
+    }
+
+    .destaques__titulo{
+        padding-top: 0;
+    }
+
+    
+    .destaques__titulo_contato {
+        padding-top: 2em;
     }
 }

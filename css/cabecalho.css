@@ -50,6 +50,10 @@
     .container__titulo {
         font-size: 36px;
     }
+
+    .container__link{
+        margin-left: 0.5em;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -68,5 +72,9 @@
 
     .container__titulo {
         font-size: 36px;
+    }
+
+    .container__link{
+        margin-left: 1em;
     }
 }
