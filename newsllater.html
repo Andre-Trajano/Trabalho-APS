@@ -1,47 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Erro | Lixo Eletronico</title>
+<html lang="pt-br" id="newsllater__html">
+    <head>
+        <meta charset="UTF-8">
+        <title>NewsLatter | Lixo Eletronico</title>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rodape.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
-    <meta name="viewport" content="width=device-width, inicial-scale-1"> 
-
-    <style>
-        .newsllater__conteudo {
-            background: #ffffff;
-            display: grid;
-            text-align: center;
-            margin: 10em 0;
-        }
-
-        #formulario__label {
-            display: grid;
-            padding: 0.3em 0;
-            margin: 0.5em 0;
-        }
-
-        #formulario__botao {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .formulario__botao_div {
-            margin: 1em 0 0 0;
-        }
-
-        .formulario__p_div {
-            margin: 1em 0 0 0;
-        }
-    </style>
-
-</head>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/rodape.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <meta name="viewport" content="width=device-width, inicial-scale-1"> 
+    </head>
     <body>
+        <!--Foi reutilizada do index.html, so modificando uma tag a, a qual foi retirada pois nao havia nessecidade ser incluida.-->
         <header class="container">
             <section class="container__hotbar">
                 <a href="index.html"><img src="img/logo-branco.png" alt="logo lixo eletronico" class="container__imagem"></a>
@@ -53,24 +24,26 @@
             </section>
             <h1 class="container__titulo">Lixo Eletronico</h1>
         </header>
+        <!--Foi reutilizado algumas classes do arquivo css contato.css e modificado algumas partes para que pudesse chegar no padrão desejado.-->
         <main>
             <section class="newsllater__conteudo">
                 <div>
                     <img src="img/logo-colorido.png" alt="logo lixo eletronico">
                     <div class="formulario__p_div">
                         <p><strong>Notícias sobre lixo eletrônico, venha</strong><p>
-                        <p><strong>fazer parte deste proposito.</strong></p>                        
+                        <p><strong>fazer parte deste proposito.</strong></p>
                     </div>
                 </div>
                 <div>
-                    <label for="email" id="formulario__label">&nbsp;&nbsp;E-Mail</label>
+                    <label for="email" id="formulario__labell">&nbsp;&nbsp;E-Mail</label>
                     <input type="email" name="email" class="formulario__campo" required>
                 </div>
-                <div class="formulario__botao_div">
+                <div class="formulario__botao_divv">
                     <button type="submit" class="formulario__botao" id="formulario__botao">Enviar</button> 
                 </div>
             </section>
         </main>
+        <!--Essa parte foi reutilizado, visto que nao havia nessecidade ser modificada.-->
         <footer>
             <a href="index.html"><img src="img/logo-branco.png" alt="logo lixo eletronico" class="rodape__logo"></a>
             <section class="rodape__icone">

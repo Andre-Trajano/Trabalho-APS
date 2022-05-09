@@ -1,6 +1,8 @@
 :root {
     --branco-principal: #ffffff;
+    --preto-puro: #000000;
     --cinza-secundario: #CCCCCC;
+    --cinza-escuro: #4F4C4C;
     --botao-azul: #0084FF;
     --cor-de-fundo-claro: #EBFCE1;
     --cor-de-fundo-escuro: #1B7C36;
@@ -15,7 +17,7 @@ html {
 }
 
 .destaques__titulo{
-    color: #4F4C4C;
+    color: var(--cinza-escuro);
     font-size: 24px;
     font: bold;
     padding-top: 2EM;
@@ -32,7 +34,7 @@ html {
 .destaques__texto{
     font-size: 22px;
     text-decoration: none;
-    color: #00005c;
+    color: var(--botao-azul);
 }
 
 .destaques__botao {
@@ -59,7 +61,7 @@ html {
     margin-right: auto;
     width:95%; 
     height:2px; 
-    background-color:#000000;
+    background-color: var(--preto-puro); 
 }
 
 .divisao__sobre {
@@ -101,6 +103,314 @@ html {
 
 
 
+
+
+
+
+
+
+
+/*Essa parte faz parte da guia newsllater.hmtl*/
+
+.newsllater__conteudo {
+    background: var(--branco-principal);
+    display: grid;
+    text-align: center;
+    margin: 10em 0;
+}
+
+#formulario__labell {
+    display: grid;
+    padding: 0.3em 0;
+    margin: 0.5em 0;
+}
+
+#formulario__botaoo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario__botao_divv {
+    margin: 1em 0 0 0;
+}
+
+.formulario__p_divv {
+    margin: 1em 0 0 0;
+}
+
+#newsllater__html {
+    background: var(--branco-principal);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Essa parte faz parte da guia erro.html*/
+
+#main__erro {
+    margin: 10em 0;
+}
+
+#html__erro {
+    background: var(--branco-principal);
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Essa parte faz parte da guia contato.css*/
+
+.formulario {
+    display: grid;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.formulario__titulo {
+    text-align: center;
+    color: var(--cinza-escuro); 
+    font-size: 24px;
+    padding: 0 0 1.2em 0;
+}
+
+.formulario__label {
+    display: block;
+}
+
+.formulario__campo {
+    border-radius: 5px;
+    border: 1px solid var(--botao-azul);
+    width: 350px;
+    height: 30px;
+}
+
+.formulario__campo_mensagem {
+    height: 100px;
+}
+
+.formulario__label {
+    padding: 0.6em 0;
+}
+
+.formulario__radio {
+    display: block;
+    padding: 0.6em 0;
+}
+
+.formulario__radio_item {
+    padding: 0.2em 0 0 2em;
+}
+
+.formulario__botao {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    background: var(--botao-azul);
+    border: 1.5px solid var(--preto-puro);   
+    border-radius: 5px;
+    color: #ffffff;
+    font: bold;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Essa parte faz parte da guia post.html*/
+
+.divisao__toda_conteudo {
+    margin: 2em 0 0 0;
+}
+
+
+.divisao__conteudo_central, .divisao__conteudo_paragrafo {
+    text-align: center;
+}
+
+#divisao__conteudo {
+   width: 350px;
+   height: 1px;
+}
+
+.divisao__espaco {
+    margin: 0.5em 0;
+}
+
+.post__section {
+   width: 80%;
+   text-align: justify;
+   font-size: 19px;
+   display: grid;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2em;
+}
+
+.post__subtitulo {
+   margin: 1.5em 0;
+   text-align: center;
+}
+
+.post__paragrafo {
+   margin: 0.5em 0;
+}
+
+.post__link {
+    color: var(--botao-azul);
+}
+
+#html__contato {
+    background: var(--branco-principal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Parte dos comentarios dos posts*/
+
+.comentarios__titulo {
+    font-size: 32px;
+    padding: 0 0 0.5em 3em;
+}
+
+.comentarios__subtitulo {
+    font-size: 20px;
+}
+
+.comentarios__todas_section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.comentarios__divisao {
+    width: 100%;
+}
+
+.comentarios__subtitulo {
+    text-align: justify;
+}
+
+.comentarios__imagem {
+    float: left;
+    padding: 10px 10px 10px 50px;
+}
+
+.comentarios__nome {
+    display: block;
+    justify-content: center;
+}
+
+.comentarios__div {
+    padding: 36px 0;
+}
+
+.comentarios__diviv, .comentarios__divi {
+    padding: 30px 0;
+}
+
+.comentarios__textarea {
+    background: var(--cor-de-fundo-claro);
+    width: 510px;
+    height: 45px;
+    border: 1.5px solid var(--preto-puro);
+    margin-right: 10px;
+}
+
+.comentarios__botao {
+    background: var(--cor-de-fundo-claro);
+    width: 170px;
+    height: 45px;
+    border: 1.5px solid var(--preto-puro);
+    margin: 0;
+}
+
+#comentarios_divivi {
+    display: flex;
+    align-items: center;
+}
+
+.comentarios__dias {
+    color: var(--cinza-escuro);
+}
+
+/*Foi nessecario fazer outra media querry para 450px na parte dos comentarios dos posts.*/
+@media (max-width: 450px) {
+    .comentarios__titulo {
+        padding: 0 0 0.5em 0;
+        text-align: center;
+    }
+
+    .comentarios__imagem {
+        padding: 10px 10px 10px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Essa parte faz parte do responsivo para celular ate 375px*/
 
 @media (max-width: 375px) {
     .destaques__imagem {
@@ -148,6 +458,13 @@ html {
 
 
 
+
+
+
+
+
+/*Essa parte faz parte do responsivo para tablet começando em 376px e indo ate 768px*/
+
 @media (min-width: 376px) and (max-width: 768px) {
     .destaques__sobre_imagem {
         display: none;
@@ -175,7 +492,6 @@ html {
     .destaques__titulo{
         padding-top: 0;
     }
-
     
     .destaques__titulo_contato {
         padding-top: 2em;
