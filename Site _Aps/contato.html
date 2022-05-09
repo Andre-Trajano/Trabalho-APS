@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br" id="html__contato">
+    <Head>
+        <meta charset="UTF-8">
+        <title>Contato | Lixo Eletronico</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/rodape.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <meta name="viewport" content="width=device-width, inicial-scale-1"> 
+    </Head>
+    <body>
+        <!--Foi reutilizada do index.html, so modificando uma tag a, a qual foi retirada pois nao havia nessecidade ser incluida.-->
+        <header class="container">
+            <section class="container__hotbar">
+                <a href="index.html"><img src="img/logo-branco.png" alt="logo lixo eletronico" class="container__imagem"></a>
+                <nav class="container__nav">
+                    <a href="index.html" class="container__link">Destaques</a>
+                    <a href="newsllater.html" class="container__link">NewsLatter</a>
+                    <a href="contato.html" class="container__link">Contato</a>
+                </nav>
+            </section>
+            <h1 class="container__titulo">Lixo Eletronico</h1>
+        </header>
+        <!--Foi feito para que possa ser encaminhado um formulario no futuro aonde o usuario encaminha mensagens e o administrador do site poder entrar em contato com o usuario.-->
+        <main>
+            <section class="formulario">
+                <h2 class="formulario__titulo">ENTRE EM CONTATO!</h2>
+                <section class="formulario__section">
+                    <div class="formulario__div">
+                        <label for="nome" class="formulario__label">&nbsp;&nbsp;Nome</label>
+                        <input type="text" name="nome" id="nome" class="formulario__campo" required>
+                    </div>
+                    <div class="formulario__div">
+                        <label for="email" class="formulario__label">&nbsp;&nbsp;E-Mail</label>
+                        <input type="email" name="email" class="formulario__campo" id="email" required>
+                    </div>
+                    <!--Essa div, foi uma solução encontrada no site stackoverflow, pois nao tem nenhum nome que identidique numeros de telefone, pelo menos nas pesquisas feitas.-->
+                    <div class="formulario__div">
+                        <label for="telefone" class="formulario__label">&nbsp;&nbsp;Telefone</label>
+                        <input type="tel" id="telefone" class="formulario__campo" name="telefone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+                    <div class="formulario__div">
+                        <label for="mensagem" class="formulario__label">&nbsp;&nbsp;Mensagem</label>
+                        <textarea id="telefone" class="formulario__campo formulario__campo_mensagem" name="mensagem"></textarea>
+                    </div>
+                    <div class="formulario__div">
+                        <label class="formulario__radio">Qual a melhor opção para contato?</label>
+                        <label class="formulario__radio formulario__radio_item">
+                            <input type="radio" name="contato" class="formulario__campo_radio" id="contato_email" checked> E-Mail
+                        </label>
+                        <label class="formulario__radio formulario__radio_item">
+                            <input type="radio" name="contato" class="formulario__campo_radio" id="contato_telefone"> Telefone
+                        </label>
+                    </div>
+                </section>
+                <button type="submit" class="formulario__botao">Enviar</button>
+            </section>
+        </main>
+        <!--Essa parte foi reutilizado, visto que nao havia nessecidade ser modificada.-->
+        <footer>
+            <a href="index.html"><img src="img/logo-branco.png" alt="logo lixo eletronico" class="rodape__logo"></a>
+            <section class="rodape__icone">
+                <a href="erro.html"><img src="img/facebook.png" class="rodape__icone_item"></a>
+                <a href="erro.html"><img src="img/instagram.png" class="rodape__icone_item"></a>
+                <a href="erro.html"><img src="img/twitter.png"></a>                
+            </section>
+            <nav class="rodape__nav">
+                <a href="index.html" class="rodape__nav_item rodape__nav_iteem">Destaques</a>
+                <a href="newsllater.html" class="rodape__nav_item rodape__nav_iteem">NewsLatter</a>
+                <a href="contato.html" class="rodape__nav_item">Contato</a>
+            </nav>
+            <p class="rodape__paragrafo">Este website tem como único objetivo fornecer informações sobre sustentabilidade, em suas diferentes formas, com foco no lixo eletrônico.</p>
+            <p class="rodape__paragrafo">Site desenvolvido por André Trajano</p>
+        </footer>
+    </body>
+</html>
